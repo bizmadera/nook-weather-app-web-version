@@ -1,0 +1,159 @@
+body {
+  background-color: #b498c6;
+}
+
+h1 {
+  color: #716656;
+  font-family: "Palanquin Dark", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  color: #716656;
+  font-family: "Nunito", sans-serif;
+  text-align: left;
+  padding: 0px 20px;
+}
+
+h3 {
+  color: #716656;
+  font-family: "Palanquin Dark", sans-serif;
+  font-size: 90px;
+  text-align: right;
+}
+
+h4 {
+  color: #716656;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  text-align: right;
+  padding-right: 5px;
+}
+
+p {
+  font-family: "Poppin", sans-serif;
+  display: inline;
+  color: #716656;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #716656;
+}
+
+a:hover {
+  color: #81c9b9;
+}
+
+.content {
+  margin: 0px 50px;
+}
+
+.weather-app-top {
+  background-color: #f7f6e5;
+  border: 2px solid;
+  border-color: #f7f6e5;
+  border-radius: 100px 100px 0px 0px;
+  padding: 30px 10px 10px 10px;
+  margin: 50px 100px 0px 100px;
+  text-align: center;
+}
+
+.status-bar {
+  display: block;
+  margin: 0px 0px 40px 0px;
+  color: #b8b4a3;
+}
+
+.top-bar-icons {
+  display: inline;
+  font-size: 25px;
+}
+
+.top-bar-icons:hover {
+  color: #81c9b9;
+}
+
+.time {
+  display: inline;
+  font-family: "Poppin", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.search-bar {
+  display: block;
+  margin: 0 auto;
+}
+
+.city-name {
+  text-align: left;
+  font-size: 50px;
+}
+
+.rounded-border {
+  padding: 5px 20px;
+  margin: 10px 5px;
+  color: #ffffff;
+  background-color: #716656;
+  border-radius: 200px;
+  text-align: center;
+}
+
+.description {
+  text-transform: capitalize;
+  background-color: #b8b4a3;
+  color: white;
+}
+
+.temperature-now-icon {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.units {
+  text-align: right;
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  color: #716656;
+}
+
+.weather-app-bottom {
+  background-color: #f7f6e5;
+  border: 2px solid;
+  border-color: #f7f6e5;
+  border-radius: 0px 0px 100px 100px;
+  padding: 20px 40px 30px 40px;
+  margin: 0px 100px 100px 100px;
+  text-align: center;
+}
+
+.forecasted-weather-icon {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.day {
+  font-family: "Nunito", sans-serif;
+}
+
+.forecasted-weather-temperature {
+  font-size: 18px;
+  font-family: "Palanquin Dark", sans-serif;
+  color: #716656;
+}
+
+.forecased-weather-temperature-min {
+  opacity: 0.5;
+}
+
+.github-link {
+  text-align: center;
+  margin: auto;
+}
