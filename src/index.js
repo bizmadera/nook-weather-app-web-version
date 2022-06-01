@@ -111,23 +111,23 @@ function showForecast(response) {
   forecastElement.innerHTML = forecastHTML;
 }
 
-function search(city){
+function search(city) {
   let apiKey = `76f96a93beeb1a74b7f32846e978f838`;
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric`;
-  console.log(apiUrl);
+  let unit = "metric";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=${unit}`;
   axios.get(`${apiUrl}&appid=${apiKey}`).then(showTemperature);
 }
 
-function handleSubmit(event) {
+function handleSubmit(event){
   event.preventDefault();
   let cityInput = document.querySelector("#city-input");
   let cityName = document.querySelector("h1.city-name");
   cityName.innerText = `${cityInput.value}`;
-  search(cityInput);
+  search(cityInput.value);
 }
 
-let searchCityForm = document.querySelector("body #search-submit");
-searchCityForm.addEventListener("click", search);
+let searchCityForm = document.querySelector("#search-form");
+searchCityForm.addEventListener("submit", handleSubmit);
 
 function handlePosition(position) {
   let locationSwitch = document.querySelector("#switch");
