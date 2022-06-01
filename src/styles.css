@@ -6,20 +6,20 @@ h1 {
   color: #716656;
   font-family: "Palanquin Dark", sans-serif;
   text-align: center;
-  padding: 20px;
+  margin: 10px 0px 20px 0px;
 }
 
 h2 {
   color: #716656;
   font-family: "Nunito", sans-serif;
   text-align: left;
-  padding: 0px 20px;
+  padding: 0px 0px;
 }
 
 h3 {
   color: #716656;
   font-family: "Palanquin Dark", sans-serif;
-  font-size: 90px;
+  font-size: 70px;
   text-align: right;
 }
 
@@ -28,7 +28,6 @@ h4 {
   font-family: "Nunito", sans-serif;
   font-size: 15px;
   text-align: right;
-  padding-right: 5px;
 }
 
 p {
@@ -56,7 +55,7 @@ a:hover {
   border: 2px solid;
   border-color: #f7f6e5;
   border-radius: 100px 100px 0px 0px;
-  padding: 30px 10px 10px 10px;
+  padding: 30px 10px 0px 10px;
   margin: 50px 100px 0px 100px;
   text-align: center;
 }
@@ -90,7 +89,7 @@ a:hover {
 
 .city-name {
   text-align: left;
-  font-size: 50px;
+  font-size: 70px;
 }
 
 .rounded-border {
@@ -104,15 +103,16 @@ a:hover {
 
 .description {
   text-transform: capitalize;
-  background-color: #b8b4a3;
-  color: white;
+  padding-top: 15px;
 }
 
 .temperature-now-icon {
   display: block;
   margin: auto;
-  text-align: center;
+  text-align: right;
+  padding-top: 20px;
 }
+
 
 .units {
   text-align: right;
@@ -128,7 +128,7 @@ a:hover {
   border: 2px solid;
   border-color: #f7f6e5;
   border-radius: 0px 0px 100px 100px;
-  padding: 20px 40px 30px 40px;
+  padding: 0px 40px 30px 40px;
   margin: 0px 100px 100px 100px;
   text-align: center;
 }
